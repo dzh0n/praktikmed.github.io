@@ -488,7 +488,7 @@ html, body {
 }
 
 .header-bottom {
-    padding: 20px 0px 0px;
+    padding: 20px 0px 20px;
 }
 
 .header-bottom_wrap {
@@ -655,3 +655,46 @@ html, body {
     order: 0;
 }
 
+.inner-page .header-bottom {
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.inner-page .content {
+    padding: 40px 0px;
+}
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    color: #777777;
+    margin-bottom: 100px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #777777;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.breadcrumbs-sep {
+    font-size: 12px;
+    line-height: 12px;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.breadcrumbs-current {
+    color: #007AC7;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.page-title {
+    color: #007AC7;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 75px;
+}

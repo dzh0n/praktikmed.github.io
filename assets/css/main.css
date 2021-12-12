@@ -1079,3 +1079,130 @@ html, body {
     border-color: #E31E24;
     color: #FFFFFF;
 }
+
+
+.services-filter {
+    margin-bottom: 75px;
+}
+
+.services-filter form {
+    display: flex;
+    align-items: center;
+}
+
+.services-filter input {
+    position: relative;
+    outline: none;
+    border: var(--second-font-color) 1px solid;
+    width: 100%;
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--second-font-color);
+    font-family: inherit;
+    padding: 10px 35px 10px 15px;
+    height: 42px;
+    border-right: 0px;
+}
+.services-filter input::placeholder {
+    color: #C4C4C4;
+}
+.services-filter-search {
+    position: relative;
+    width: 60%;
+}
+.services-filter-search:after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-image: url('../svg/search-icon.svg');
+    right: 10px;
+    top: 15px;
+}
+
+.services-filter .nice-select {
+    border: var(--second-font-color) 1px solid;
+    border-radius: 0px;
+    width: 40%;
+}
+
+
+.services-filter .nice-select .current {
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--second-font-color);
+}
+
+.services-filter .nice-select:after {
+    border-bottom: 1px solid var(--second-font-color);
+    border-right: 1px solid var(--second-font-color);
+    height: 15px;
+    width: 15px;
+    margin-top: -5px;
+    top: 35%;
+}
+
+.services-filter .nice-select .list {
+    border-radius: 0px;
+    box-shadow: none;
+    border: var(--second-font-color) 1px solid;
+}
+
+.services-filter .nice-select .option {
+    font-size: 12px;
+    color: var(--second-font-color);
+}
+
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-list-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+    border-top: 0.5px solid #C4C4C4;
+}
+
+.services-list-row:last-child {
+    border-bottom: 0.5px solid #C4C4C4;
+}
+.services-list-row.odd {
+    background-color: #F5F5F5;
+}
+
+.services-row-name {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #191721;
+}
+
+.services-row-title {
+
+}
+
+.services-row-title .services-row-name {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--second-font-color);
+}
+
+.services-list-price {
+    display: flex;
+    align-items: center;
+}
+
+.services-list-price span {
+    color: var(--second-font-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 30px;
+}

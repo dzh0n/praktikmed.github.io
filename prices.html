@@ -45,13 +45,13 @@
                             <a href="services.html">Наши услуги</a>
                         </li>
                         <li>
-                            <a href="specialists.html" class="active">Наши специалисты</a>
+                            <a href="specialists.html">Наши специалисты</a>
                         </li>
                         <li>
                             <a href="javascript:;">Новости</a>
                         </li>
                         <li>
-                            <a href="prices.html">Прайс-лист</a>
+                            <a href="prices.html" class="active">Прайс-лист</a>
                         </li>
                         <li>
                             <a href="javascript:;">Отзывы</a>
@@ -72,19 +72,15 @@
                 <div class="breadcrumbs">
                     <a href="index.html">Главная</a>
                     <span class="breadcrumbs-sep">/</span>
-                    <span class="breadcrumbs-current">Наши специалисты</span>
+                    <span class="breadcrumbs-current">Цены на услуги</span>
                 </div>
                 <div class="page-content">
-                    <h1 class="page-title">Наши специалисты</h1>
-                    <div class="specialist-filter">
+                    <h1 class="page-title">Цены на услуги</h1>
+                    <div class="services-filter">
                         <form action="">
-                            <select name="address" id="address" class="wide">
-                                <option data-select="Выбрать адрес">Выбрать адрес</option>
-                                <option value="1">ул. Уинская, 9</option>
-                                <option value="1">ул. Екатерининская, 107</option>
-                                <option value="1">ул. Борчанинова, 5</option>
-                                <option value="1">пр. Парковый, 14</option>
-                            </select>
+                            <div class="services-filter-search">
+                                <input type="text" name="category" placeholder="ВВЕДИТЕ НАЗВАНИЕ УСЛУГИ">
+                            </div>
                             <select name="specialisation" class="wide">
                                 <option data-select="Специализация">Специализация</option>
                                 <option value="1">Гинекология</option>
@@ -92,74 +88,56 @@
                         </form>
                     </div>
 
-                    <div class="specialist-grid">
 
-                        <div class="specialist-item">
-                            <div class="specialist-item-img">
-                                <img src="assets/img/spec_1.png" alt="">
-                            </div>
-                            <div class="specialist-item-info">
-                                <div class="specialist-item-name">Фридман София Борисовна</div>
-                                <div class="specialist-item-description">Главный врач. Директор сети клиник. Акушер-гинеколог.</div>
-                                <div class="specialist-item-delim"></div>
-                                <div class="specialist-item-bottom">
-                                    <div class="specialist-item-price">
-                                        Прием от <span>4000 Р</span>
-                                    </div>
-                                    <button>Записаться</button>
-                                </div>
+                    <div class="services-list">
+                        <div class="services-list-row services-row-title">
+                            <div class="services-row-name">Заголовок</div>
+                        </div>
+                        <div class="services-list-row odd">
+                            <div class="services-row-name">Узи сердца</div>
+                            <div class="services-list-price">
+                                <span>4000 Р</span>
+                                <img src="assets/svg/arrow-right.svg" alt="">
                             </div>
                         </div>
-
-                        <div class="specialist-item">
-                            <div class="specialist-item-img">
-                                <img src="assets/img/spec_1.png" alt="">
-                            </div>
-                            <div class="specialist-item-info">
-                                <div class="specialist-item-name">Фридман София Борисовна</div>
-                                <div class="specialist-item-description">Главный врач. Директор сети клиник. Акушер-гинеколог.</div>
-                                <div class="specialist-item-delim"></div>
-                                <div class="specialist-item-bottom">
-                                    <div class="specialist-item-price">
-                                        Прием от <span>4000 Р</span>
-                                    </div>
-                                    <button>Записаться</button>
-                                </div>
+                        <div class="services-list-row">
+                            <div class="services-row-name">Узи щитовидной железы</div>
+                            <div class="services-list-price">
+                                <span>4000 Р</span>
+                                <img src="assets/svg/arrow-right.svg" alt="">
                             </div>
                         </div>
-                        <div class="specialist-item">
-                            <div class="specialist-item-img">
-                                <img src="assets/img/spec_1.png" alt="">
-                            </div>
-                            <div class="specialist-item-info">
-                                <div class="specialist-item-name">Фридман София Борисовна</div>
-                                <div class="specialist-item-description">Главный врач. Директор сети клиник. Акушер-гинеколог.</div>
-                                <div class="specialist-item-delim"></div>
-                                <div class="specialist-item-bottom">
-                                    <div class="specialist-item-price">
-                                        Прием от <span>4000 Р</span>
-                                    </div>
-                                    <button>Записаться</button>
-                                </div>
+                        <div class="services-list-row odd">
+                            <div class="services-row-name">Узи органов брюшной полости</div>
+                            <div class="services-list-price">
+                                <span>4000 Р</span>
+                                <img src="assets/svg/arrow-right.svg" alt="">
                             </div>
                         </div>
-                        <div class="specialist-item">
-                            <div class="specialist-item-img">
-                                <img src="assets/img/spec_1.png" alt="">
-                            </div>
-                            <div class="specialist-item-info">
-                                <div class="specialist-item-name">Фридман София Борисовна</div>
-                                <div class="specialist-item-description">Главный врач. Директор сети клиник. Акушер-гинеколог.</div>
-                                <div class="specialist-item-delim"></div>
-                                <div class="specialist-item-bottom">
-                                    <div class="specialist-item-price">
-                                        Прием от <span>4000 Р</span>
-                                    </div>
-                                    <button>Записаться</button>
-                                </div>
+                        <div class="services-list-row services-row-title">
+                            <div class="services-row-name">Заголовок</div>
+                        </div>
+                        <div class="services-list-row odd">
+                            <div class="services-row-name">Узи сердца</div>
+                            <div class="services-list-price">
+                                <span>4000 Р</span>
+                                <img src="assets/svg/arrow-right.svg" alt="">
                             </div>
                         </div>
-
+                        <div class="services-list-row">
+                            <div class="services-row-name">Узи щитовидной железы</div>
+                            <div class="services-list-price">
+                                <span>4000 Р</span>
+                                <img src="assets/svg/arrow-right.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="services-list-row odd">
+                            <div class="services-row-name">Узи органов брюшной полости</div>
+                            <div class="services-list-price">
+                                <span>4000 Р</span>
+                                <img src="assets/svg/arrow-right.svg" alt="">
+                            </div>
+                        </div>
                     </div>
 
 

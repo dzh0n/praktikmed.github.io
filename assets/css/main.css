@@ -943,3 +943,139 @@ html, body {
 .services-grid-list a:hover {
     color: #E31E24;
 }
+
+
+.specialist-filter {
+    margin-bottom: 75px;
+}
+
+.specialist-filter form {
+    display: flex;
+    align-items: center;
+}
+
+.specialist-filter .nice-select {
+    border: var(--second-font-color) 1px solid;
+    border-radius: 0px;
+}
+
+.specialist-filter form .nice-select:first-of-type {
+    border-right: none !important;
+}
+
+.specialist-filter .nice-select .current {
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--second-font-color);
+}
+
+.specialist-filter .nice-select:after {
+    border-bottom: 1px solid var(--second-font-color);
+    border-right: 1px solid var(--second-font-color);
+    height: 15px;
+    width: 15px;
+    margin-top: -5px;
+    top: 35%;
+}
+
+.specialist-filter .nice-select .list {
+    border-radius: 0px;
+    box-shadow: none;
+    border: var(--second-font-color) 1px solid;
+}
+
+.specialist-filter .nice-select .option {
+    font-size: 12px;
+    color: var(--second-font-color);
+}
+
+.specialist-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.specialist-item {
+    width: 100%;
+    min-height: 270px;
+    background: #FDFDFD;
+    box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.specialist-item-img {
+    width: 255px;
+    margin-right: 58px;
+}
+
+.specialist-item-img img {
+    display: block;
+    width: 100%;
+}
+
+.specialist-item-info {
+    width: 100%;
+    max-width: 454px;
+}
+
+.specialist-item-name {
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--second-font-color);
+    margin-bottom: 20px;
+}
+
+.specialist-item-description {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    color: #777777;
+}
+
+.specialist-item-delim {
+    margin: 30px 0px;
+    border-top: 1px solid #C4C4C4;
+    width: 100%;
+}
+
+.specialist-item-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.specialist-item-price {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #E31E24;
+}
+
+.specialist-item-price span {
+    font-size: 20px;
+}
+
+.specialist-item-bottom button {
+    border: 1px solid #007AC7;
+    width: 150px;
+    height: 32px;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--second-font-color);
+    transition: background-color .3s ease;
+}
+
+.specialist-item-bottom button:hover {
+    background-color: #E31E24;
+    border-color: #E31E24;
+    color: #FFFFFF;
+}

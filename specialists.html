@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=10">
     <title>Практик - сеть медицинских клиник</title>
     <link rel="stylesheet" href="assets/fonts/GothamPro/stylesheet.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body class="inner-page">
@@ -42,10 +42,10 @@
                             <a href="about.html">О клинике</a>
                         </li>
                         <li>
-                            <a href="services.html" class="active">Наши услуги</a>
+                            <a href="services.html">Наши услуги</a>
                         </li>
                         <li>
-                            <a href="specialists.html">Наши специалисты</a>
+                            <a href="specialists.html" class="active">Наши специалисты</a>
                         </li>
                         <li>
                             <a href="javascript:;">Новости</a>
@@ -72,66 +72,97 @@
                 <div class="breadcrumbs">
                     <a href="index.html">Главная</a>
                     <span class="breadcrumbs-sep">/</span>
-                    <span class="breadcrumbs-current">Услуги</span>
+                    <span class="breadcrumbs-current">Наши специалисты</span>
                 </div>
-                <div class="page-content page-wide">
-                    <h1 class="page-title">Услуги</h1>
-                    <div class="services-grid">
+                <div class="page-content">
+                    <h1 class="page-title">Наши специалисты</h1>
+                    <div class="specialist-filter">
+                        <form action="">
+                            <select name="address" id="address" class="wide">
+                                <option data-select="Выбрать адрес">Выбрать адрес</option>
+                                <option value="1">ул. Уинская, 9</option>
+                                <option value="1">ул. Екатерининская, 107</option>
+                                <option value="1">ул. Борчанинова, 5</option>
+                                <option value="1">пр. Парковый, 14</option>
+                            </select>
+                            <select name="specialisation" class="wide">
+                                <option data-select="Специализация">Специализация</option>
+                                <option value="1">Гинекология</option>
+                            </select>
+                        </form>
+                    </div>
 
-                        <div class="services-grid-row">
-                            <div class="services-grid-term">А</div>
-                            <div class="services-grid-list">
-                                <a href="javascript:;">Анализы</a>
+                    <div class="specialist-grid">
+
+                        <div class="specialist-item">
+                            <div class="specialist-item-img">
+                                <img src="assets/img/spec_1.png" alt="">
+                            </div>
+                            <div class="specialist-item-info">
+                                <div class="specialist-item-name">Фридман София Борисовна</div>
+                                <div class="specialist-item-description">Главный врач. Директор сети клиник. Акушер-гинеколог.</div>
+                                <div class="specialist-item-delim"></div>
+                                <div class="specialist-item-bottom">
+                                    <div class="specialist-item-price">
+                                        Прием от <span>4000 Р</span>
+                                    </div>
+                                    <button>Записаться</button>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="services-grid-row">
-                            <div class="services-grid-term">В</div>
-                            <div class="services-grid-list">
-                                <a href="javascript:;">Вакцинация от COVID-19</a>
+                        <div class="specialist-item">
+                            <div class="specialist-item-img">
+                                <img src="assets/img/spec_1.png" alt="">
+                            </div>
+                            <div class="specialist-item-info">
+                                <div class="specialist-item-name">Фридман София Борисовна</div>
+                                <div class="specialist-item-description">Главный врач. Директор сети клиник. Акушер-гинеколог.</div>
+                                <div class="specialist-item-delim"></div>
+                                <div class="specialist-item-bottom">
+                                    <div class="specialist-item-price">
+                                        Прием от <span>4000 Р</span>
+                                    </div>
+                                    <button>Записаться</button>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="services-grid-row">
-                            <div class="services-grid-term">Г</div>
-                            <div class="services-grid-list">
-                                <a href="javascript:;">Гинекология</a>
+                        <div class="specialist-item">
+                            <div class="specialist-item-img">
+                                <img src="assets/img/spec_1.png" alt="">
+                            </div>
+                            <div class="specialist-item-info">
+                                <div class="specialist-item-name">Фридман София Борисовна</div>
+                                <div class="specialist-item-description">Главный врач. Директор сети клиник. Акушер-гинеколог.</div>
+                                <div class="specialist-item-delim"></div>
+                                <div class="specialist-item-bottom">
+                                    <div class="specialist-item-price">
+                                        Прием от <span>4000 Р</span>
+                                    </div>
+                                    <button>Записаться</button>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="services-grid-row">
-                            <div class="services-grid-term">К</div>
-                            <div class="services-grid-list">
-                                <a href="javascript:;">Колоноскопия</a>
-                                <a href="javascript:;">Коррекция веса</a>
-                                <a href="javascript:;">Косметология и дерматология</a>
+                        <div class="specialist-item">
+                            <div class="specialist-item-img">
+                                <img src="assets/img/spec_1.png" alt="">
                             </div>
-                        </div>
-
-                        <div class="services-grid-row">
-                            <div class="services-grid-term">О</div>
-                            <div class="services-grid-list">
-                                <a href="javascript:;">Обследования</a>
-                            </div>
-                        </div>
-
-                        <div class="services-grid-row">
-                            <div class="services-grid-term">П</div>
-                            <div class="services-grid-list">
-                                <a href="javascript:;">Пластическая хирургия</a>
-                                <a href="javascript:;">Психология</a>
-                            </div>
-                        </div>
-
-                        <div class="services-grid-row">
-                            <div class="services-grid-term">У</div>
-                            <div class="services-grid-list">
-                                <a href="javascript:;">УЗИ диагностика</a>
-                                <a href="javascript:;">Узкие специалисты</a>
+                            <div class="specialist-item-info">
+                                <div class="specialist-item-name">Фридман София Борисовна</div>
+                                <div class="specialist-item-description">Главный врач. Директор сети клиник. Акушер-гинеколог.</div>
+                                <div class="specialist-item-delim"></div>
+                                <div class="specialist-item-bottom">
+                                    <div class="specialist-item-price">
+                                        Прием от <span>4000 Р</span>
+                                    </div>
+                                    <button>Записаться</button>
+                                </div>
                             </div>
                         </div>
 
                     </div>
+
+
                 </div>
 
             </div>
@@ -161,7 +192,7 @@
                     <div class="map-address" onclick="setPlacemark(2, $(this))">
                         <div class="map-address-icon"></div>
                         <div class="map-address-data">
-                            <span> ул. Екатерининская, 107</span>
+                            <span>ул. Екатерининская, 107</span>
                             <a href="tel: +7 (342) 215-48-48"> +7 (342) 215-48-48</a>
                         </div>
                     </div>

@@ -877,6 +877,14 @@ html, body {
 .map-address.active .map-address-icon {
     background-image: url('../svg/adress-icon-active.svg');
 }
+.map-email-icon {
+    width: 12px;
+    height: 9px;
+    background-image: url('../svg/email-icon.svg');
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
 .map-address-data {
     display: flex;
     flex-direction: column;

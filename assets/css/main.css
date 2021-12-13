@@ -843,6 +843,9 @@ html, body {
     color: var(--second-font-color);
 }
 
+.mrg-0 {
+    margin: 0px !important;
+}
 
 #map {
     width: 100%;
@@ -867,6 +870,7 @@ html, body {
     margin-bottom: 30px;
     cursor: pointer;
 }
+.map-address:last-child {}
 .map-address-icon {
     width: 10px;
     height: 14px;

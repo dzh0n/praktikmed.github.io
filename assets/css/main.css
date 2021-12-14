@@ -1833,9 +1833,6 @@ a.services-list-row:hover .services-row-name {
     height: 32px;
 }
 
-.modal-form-row {
-
-}
 
 .modal-form-row .nice-select {
     border:#fff 1px solid;
@@ -1887,6 +1884,38 @@ a.services-list-row:hover .services-row-name {
 .modal-form-row .nice-select .option {
     font-size: 14px;
     color: var(--second-font-color);
+}
+
+.modal-form-desc {
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.modal-form-row button {
+    background: #FFFFFF;
+    border: #FFFFFF 1px solid;
+    color: var(--second-font-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    display: block;
+    outline: none;
+    height: 32px;
+    min-width: 150px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    margin: 0 auto;
+}
+
+.modal-form-row button:hover {
+    background: #E31E24;
+    border-color: #E31E24;
+    color: #FFFFFF;
 }
 
 @media (max-width: 1140px) {

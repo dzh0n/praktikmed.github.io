@@ -36,6 +36,14 @@ $(document).ready(function () {
             prevEl: '.news-slider-navs .swiper-button-prev',
             nextEl: '.news-slider-navs .swiper-button-next',
         },
+        breakpoints: {
+            992: {
+                slidesPerView: 4,
+            },
+            576: {
+                slidesPerView:2,
+            },
+        }
     });
 
     var ourServicessSlider = new Swiper('#our-services-slider', {
@@ -46,6 +54,19 @@ $(document).ready(function () {
             prevEl: '.our-services-slider-navs .swiper-button-prev',
             nextEl: '.our-services-slider-navs .swiper-button-next',
         },
+        breakpoints: {
+            992: {
+                slidesPerView: 4,
+            },
+            576: {
+                slidesPerView: 2,
+            },
+            320: {
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                spaceBetween: 15,
+            }
+        }
     });
 
     var aboutCenterSlider = new Swiper('#about-center-slider', {

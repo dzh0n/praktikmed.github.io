@@ -769,7 +769,7 @@ html, body {
 }
 
 .certificates {
-    padding: 80px 0px;
+    padding: 80px 15px;
     /* max-width: 1140px;
      margin: 0 auto;*/
 }
@@ -1785,4 +1785,153 @@ a.services-list-row:hover .services-row-name {
     /* identical to box height, or 120% */
     color: #B7B7B7;
     margin: 0px 80px;
+}
+
+
+#orderForm {
+    background: var(--second-font-color);
+    color: #FFFFFF;
+}
+
+.modal h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 34px;
+}
+
+.modal form {
+    width: 100%;
+    max-width: 455px;
+}
+.modal-form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.modal-form-row label {
+    text-align: right;
+    min-width: 125px;
+    display: block;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.modal-form-row input {
+    min-width: 315px;
+    border: #FFFFFF 1px solid;
+    background-color: transparent;
+    outline: none;
+    font-size: 14px;
+    padding: 5px 5px;
+    font-family: inherit;
+    color: #FFFFFF;
+    height: 32px;
+}
+
+.modal-form-row {
+
+}
+
+.modal-form-row .nice-select {
+    border:#fff 1px solid;
+    border-radius: 0px;
+    background-color: transparent;
+    height: 32px;
+    line-height: 30px;
+}
+
+
+.modal-form-row .nice-select .current {
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.modal-form-row .nice-select.open {
+    background-color: #FFFFFF;
+}
+
+.modal-form-row .nice-select.open .current {
+    color: var(--second-font-color);
+}
+
+.modal-form-row .nice-select:after {
+    border-bottom: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    height: 12px;
+    width: 12px;
+    margin-top: -5px;
+    top: 35%;
+}
+
+.modal-form-row .nice-select.open:after {
+    border-bottom: 1px solid var(--second-font-color);
+    border-right: 1px solid var(--second-font-color);
+}
+
+.modal-form-row .nice-select .list {
+    border-radius: 0px;
+    box-shadow: none;
+    border: var(--second-font-color) 1px solid;
+}
+
+.modal-form-row .nice-select .list li {
+    border-bottom: var(--second-font-color) 1px solid;
+}
+
+.modal-form-row .nice-select .option {
+    font-size: 14px;
+    color: var(--second-font-color);
+}
+
+@media (max-width: 1140px) {
+    .header-menu li a {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 885px) {
+    .header-top-phones {
+        display: none;
+    }
+    .header-order-btn {
+        display: none;
+    }
+    .header-bottom {
+        display: none;
+    }
+    .header-top {
+        border-bottom: none;
+    }
+    .header {
+        height: auto;
+        background: #FFFFFF;
+    }
+
+
+    .actions-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .actions-grid-item {
+        width: 40%;
+    }
+    .about-center {
+        flex-direction: column;
+    }
+    .about-center > p {
+        max-width: 540px;
+    }
+    .sub-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+
 }

@@ -1793,6 +1793,10 @@ a.services-list-row:hover .services-row-name {
     color: #FFFFFF;
 }
 
+.modal {
+    display: none;
+}
+
 .modal h2 {
     text-transform: uppercase;
     text-align: center;
